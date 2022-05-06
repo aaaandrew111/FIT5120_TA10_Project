@@ -15,5 +15,5 @@ In this project, a web application is implemented, which is used to help custome
 
 
 ### 3. How to Install and Run the Project
-Access to the page: www.truthteller10.org
-Password: TA10
+- Access to the page: www.truthteller10.org
+- Password: TA10
