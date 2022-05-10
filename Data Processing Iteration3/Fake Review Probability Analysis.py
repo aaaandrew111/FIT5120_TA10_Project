@@ -79,7 +79,6 @@ class Data_Process:
     # make fake review probability prediction
     def make_prediction(self):
         self.fake_prob = self.model.predict_proba(self.transformed_data)[0][1]
-        
         #print(self.model.classes_)
         return
     
