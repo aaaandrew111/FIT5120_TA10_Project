@@ -78,17 +78,7 @@ class Data_Process:
     
     # make fake review probability prediction
     def make_prediction(self):
-        fake_prob = self.model.predict_proba(self.transformed_data)[0][1]
-        
-        if fake_prob >= 0.5:
-            self.fake_prob = fake_prob + random.uniform(0.05, 0.25)
-            if self.fake_prob > 1:
-                self.fake_prob = 0.85
-        
-        else:
-            self.fake_prob = fake_prob - random.uniform(0.05, 0.25)
-            if self.fake_prob < 0:
-                self.fake_prob = 0.15
+        self.fake_prob = self.model.predict_proba(self.transformed_data)[0][1]
         
         #print(self.model.classes_)
         return
