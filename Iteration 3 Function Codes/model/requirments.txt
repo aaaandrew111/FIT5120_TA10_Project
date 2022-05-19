@@ -1,0 +1,7 @@
+nltk
+textblob
+flask
+flask_cors
+scikit-learn
+scipy
+matplotlib
