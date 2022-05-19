@@ -203,7 +203,7 @@ in which way we can design the interaction with backend with more freedom.
 </body>
 ```
 
-###JavaScript
+### JavaScript
 
 We use origin js to design the action of the button, 
 the request we send and how the response is going to be displayed.
