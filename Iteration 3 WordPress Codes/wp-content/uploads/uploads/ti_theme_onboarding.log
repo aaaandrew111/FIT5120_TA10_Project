@@ -1,0 +1,35 @@
+[09/May/2022:15:01:38] (I): WordPress Instance Info:
+[09/May/2022:15:01:38] (I): Home URL : http://3.24.13.62
+[09/May/2022:15:01:38] (I): Site URL : http://3.24.13.62
+[09/May/2022:15:01:38] (I): WordPress Version : 5.9.3
+[09/May/2022:15:01:38] (I): Onboarding Version : 1.1.21
+[09/May/2022:15:01:38] (I): Multisite : No
+[09/May/2022:15:01:38] (I): Server Info : Apache
+[09/May/2022:15:01:38] (I): PHP Version : 7.4.28
+[09/May/2022:15:01:38] (I): HTTPS : No
+[09/May/2022:15:01:38] (I): PHP Max Execution Time : 30
+[09/May/2022:15:01:38] (I): PHP Max Input Vars : 1000
+[09/May/2022:15:01:38] (I): Max Upload Size : 83886080
+[09/May/2022:15:01:38] (I): Plugins:
+[09/May/2022:15:01:38] (I): [PLUGIN] Custom Database Applications by Caspio : v2.1 (Caspio)
+[09/May/2022:15:01:38] (I): [PLUGIN] Duplicate Page : v4.4.8 (mndpsingh287)
+[09/May/2022:15:01:38] (I): [PLUGIN] Everest Forms : v1.8.6 (WPEverest)
+[09/May/2022:15:01:38] (I): [PLUGIN] Filester - File Manager Pro : v1.7.4 (Ninja Team)
+[09/May/2022:15:01:38] (I): [PLUGIN] Futurio Extra : v1.6.3 (FuturioWP)
+[09/May/2022:15:01:38] (I): [PLUGIN] Hide My Site : v2.1 (Justin Saad)
+[09/May/2022:15:01:38] (I): [PLUGIN] iframe : v4.5 (webvitaly)
+[09/May/2022:15:01:38] (I): [PLUGIN] Flipbox - Awesomes Flip Boxes Image Overlay : v2.8.2 (Biplob Adhikari)
+[09/May/2022:15:01:38] (I): [PLUGIN] Insert PHP Code Snippet : v1.3.3 (xyzscripts.com)
+[09/May/2022:15:01:38] (I): [PLUGIN] Jetpack : v10.8 (Automattic)
+[09/May/2022:15:01:38] (I): [PLUGIN] Collapse-O-Matic : v1.8.2 (twinpictures, baden03)
+[09/May/2022:15:01:38] (I): [PLUGIN] Kadence Starter Templates : v1.2.13 (Kadence WP)
+[09/May/2022:15:01:38] (I): [PLUGIN] myStickymenu : v2.5.8 (Premio)
+[09/May/2022:15:01:38] (I): [PLUGIN] Quiz Maker : v6.3.2.0 (Quiz Maker team)
+[09/May/2022:15:01:38] (I): [PLUGIN] Quiz And Survey Master : v7.3.14 (ExpressTech)
+[09/May/2022:15:01:38] (I): [PLUGIN] Page Builder by SiteOrigin : v2.16.9 (SiteOrigin)
+[09/May/2022:15:01:38] (I): [PLUGIN] Templates Patterns Collection : v1.1.21 (ThemeIsle)
+[09/May/2022:15:01:38] (I): [PLUGIN] ThemeGrill Demo Importer : v1.8.0 (ThemeGrill)
+[09/May/2022:15:01:38] (I): [PLUGIN] WooCommerce : v6.3.1 (Automattic)
+[09/May/2022:15:01:38] (I): [PLUGIN] Wordfence Security : v7.5.9 (Wordfence)
+[09/May/2022:15:01:38] (I): [PLUGIN] WP phpMyAdmin : v5.2.0.1 (Puvox.software)
+[09/May/2022:15:01:38] (I): [PLUGIN] WPFront Scroll Top : v2.0.7.08086 (Syam Mohan)

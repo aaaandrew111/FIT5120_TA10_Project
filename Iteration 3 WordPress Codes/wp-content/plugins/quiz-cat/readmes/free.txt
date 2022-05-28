@@ -1,0 +1,364 @@
+=== Quiz Cat - WordPress Quiz Plugin ===
+Contributors: fatcatapps, davidhme, ryannovotny, quizcat
+Donate link: https://fatcatapps.com/
+Tags: quiz, quiz block, quizzes, create quiz, viral quiz, quiz plugin, buzzfeed quiz, trivia quiz, personality quiz, gutenberg
+Author URI: https://fatcatapps.com/
+Plugin URI: https://fatcatapps.com/quizcat
+Requires at least: 4.0
+Tested up to: 5.9
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 2.1.1
+
+Quiz Cat Lets You Create Beautiful Viral BuzzFeed-style Quizzes That Drive Social Shares & User Engagement. Set It Up In 2 Minutes.
+
+== Description ==
+
+Quiz Cat is the easiest way to build viral & engaging quizzes for your WordPress site. It takes just a few minutes to set up a knowledge test, trivia quiz or viral personality quiz. These quizzes are proven to produce more user engagement, more social shares, and generate a boatload of leads.
+
+[youtube https://www.youtube.com/watch?v=AkMowmLJXyY]
+
+> #### WordPress Quiz Plugin - Live Demo
+>Wanna demo our viral quiz builder?
+> [Click here to view a live demo >>](https://fatcatapps.com/quizcat/demos)
+
+You want to start getting more results from your content - more traffic, leads, and revenue - and Quiz Cat is the plugin to help you do this.
+
+Here’s what Quiz Cat can do for you, and why it is the best WordPress quiz plugin.
+
+= Create Fun, Viral Quizzes in Just a Few Minutes =
+Keeping your viewers engaged does not have to be rocket science. It’s simpler than ever with Quiz Cat’s quiz builder. Simply set up your questions, answers and results, and your quiz is ready to go. Setup in minutes.
+
+It’s easy as pie to input your quiz questions, answers and results with our HTML text editor. Quiz Cat’s drag and drop interface lets you move quiz questions and answers around to get your quiz just how you want it.
+
+When a reader takes a fun quiz on your site, they will remember you. They won’t remember all the other “same old” blog posts they read that day. Even better, a quiz inspires each user to share their quiz results with their friends. These friends take your quiz, they share with their friends, and you get a viral stream of traffic to your site. All thanks to the few minutes it took to create a quiz with Quiz Cat.
+
+= A Powerful Plugin that Won’t Slow Down Your Site =
+Don’t sacrifice power for site speed. Unlike other lead generation tools that drain on your site speed, Quiz Cat is a fast, lightweight plugin. Set up your quizzes in the WordPress backend, and effortlessly integrate your quizzes with the post editor using shortcodes or the Quiz Cat Gutenberg block.
+
+= Multi-Purpose Quiz Types =
+Quiz Cat is the choice for every situation. Build challenging knowledge tests. Trivia quizzes to test the most dedicated superfan. Lead-scoring tests to qualify your prospects. The choice of quiz is yours.
+
+The Premium version of Quiz Cat features even more powerful quiz types. Use Quiz Cat Premium to build personality quizzes, viral buzzfeed-style quizzes, and quizzes with weighted answers.
+
+= Unlimited Quizzes =
+Build as many quizzes and tests as you want with Quiz Cat. When you realize how powerful quizzes are for your content marketing strategy, you can double down and build as many as you want.
+
+= Make Your Blog Posts Stand Out =
+99% of blog posts today look the same. Make yourself stand out from the crowd with a fun, interactive quiz. People will remember you, and you’ll get a higher dwell time, which correlates to better SEO rankings.
+
+= Gutenberg-Compatible =
+Adding your quiz to a post with the modern WordPress post editor is simple with Quiz Cat Gutenberg blocks. Your quiz will size itself to fit your content area, allowing you to add text above and below your quiz, maximizing SEO value and engagement.
+
+= Convenient Shortcode Publishing =
+Want to add your quiz to a dedicated landing page, or insert it into a page builder like Elementor? You can display your quiz anywhere that supports shortcodes.
+
+= Looks Great on All Devices =
+Quiz Cat quizzes are fully responsive. No matter what device your readers are on, your quiz will look and function great. 
+
+= Fully Translatable =
+All text strings in Quiz Cat’s backend support translation. On the frontend, most content can be changed to fit your target audience’s language, and the few things that can’t be changed from the user interface can be changed with PHP Filters (see the “Frequently Asked Questions” tab for more).
+
+= Extensive Support Articles =
+We’ve put together an extensive collection of help articles to give you all the knowledge you need to get your quiz up and running in minutes. Check out the Quiz Cat knowledge base [here.](https://fatcatapps.com/article-categories/quiz-cat/)
+
+= Premium Features =
+If you’re after a little bit extra, Quiz Cat premium has a bunch of extra features, plus two advanced quiz types, for the heavy hitters. 
+
+Quiz Cat Premium features include:
+
+* Personality quizzes
+* Weighted quizzes
+* Email capture after quiz completion
+* Integration with popular email marketing tools
+* Zapier integration
+* Lead segmentation via tags & merge fields
+* Redirect to URL after quiz completion
+* Shuffle quiz questions
+* Enable/disable answer explanations
+* “Restart quiz” option
+* Quiz analytics
+* Quiz response spreadsheet export
+* Social sharing buttons
+* Facebook Pixel integration
+* Premium email support
+
+= Ready To Build Viral & Engaging Quizzes? =
+Quiz Cat is the best plugin to use to build and publish engaging quizzes and tests on your WordPress site. You’re minutes away from being able to test the power of quizzes in content marketing. Just download & install the plugin and get started. 
+
+Quiz Cat’s quiz builder is the most easy-to-use plugin there is. Quiz Cat’s mix of power and usability is better than all other WordPress Quiz Plugins, such as Quiz and Survey Master, HD Quiz, Quiz Maker, Watu Quiz, WP Quiz and ARI Stream Quiz.
+
+Once you’ve seen the power of engagement for yourself, check out [Quiz Cat Premium](https://fatcatapps.com/quizcat/) to build viral personality quizzes, weighted quizzes, capture emails, segment leads, and dissect your quizzes’ performance with our quiz analytics dashboard.
+
+Quiz Cat Premium is the most powerful quiz builder for WordPress. Check out Quiz Cat Premium today to test the power of quizzes for your WordPress site. No risk - QuizCat Premium comes with a 60 day money back guarantee, if our quiz building plugin isn’t right for you.
+
+Let our powerful WordPress plugins help you grow your business or blog.
+--[The Fatcat Apps Team](https://fatcatapps.com/)
+
+
+== Installation ==
+
+1. Upload the Quiz Cat plugin file (`quiz-cat.zip`) to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. In your sidebar, select 'Quizzes -> Add New' to create a new quiz
+ 
+[Watch a Quiz Cat installation + setup video here.](https://youtu.be/CQe3VsX_Xag)
+
+== Frequently Asked Questions ==
+= How do I build a quiz? =
+[Watch a video with instructions here.](https://youtu.be/CQe3VsX_Xag)
+
+= How Can I Change The Quiz Language On The Frontend? =
+
+All strings that appear on the frontend can be changed using this filter:
+`function my_quiz_callback_filter( $array ) {
+
+    $array['no_quiz_found'] = "Can't find that quiz!";
+    $array['correct'] = "You're doing it!";
+    $array['wrong'] = "Epic Fail!";
+    $array['your_answer'] = "You said:";
+    $array['correct_answer'] = "Correct is this:";
+    $array['question'] = "Le Question:";
+    $array['next'] = "GG GO NEXT";
+    $array['you_got'] = "Your quiz score";
+    $array['out_of'] = "of maximum";
+    $array['your_answers'] = "Your quiz answers";
+    $array['start_quiz'] = "GO!";
+    $array['retake_quiz'] = "Do Over?";
+    $array['share_results'] = "Share your results!";
+    $array['i_got'] = "I gotz";
+    $array['skip_this_step'] = "SKIP IT";
+    $array['your_name'] = "First Name";
+    $array['your_email'] = "E-mail Address";
+
+    return $array;
+}
+add_filter( 'fca_qc_quiz_text', 'my_quiz_callback_filter' );`
+
+== Privacy Disclosure ==
+
+This plugin stores personal data (eg. names & emails collected using this plugin) in the WordPress database.
+
+This plugin integrates with the WordPress GDPR privacy controls for data export & data deletion added in WordPress 4.9.6.
+
+This plugin can be configured to connect to 3rd party service providers such as MailChimp.
+
+If you use this plugin to connect to a 3rd party, personal data may also be shared with that party.
+
+Additional privacy policy information for 3rd party services can be found here:
+
+[ActiveCampaign](https://www.activecampaign.com/privacy-policy/)
+[Aweber](https://www.aweber.com/privacy.htm)
+[Campaign Monitor](https://www.campaignmonitor.com/policies/#privacy-policy)
+[ConvertKit](https://convertkit.com/privacy/)
+[Drip](https://www.drip.com/privacy)
+[GetResponse](https://www.getresponse.com/legal/privacy.html)
+[Mad Mimi](https://madmimi.com/legal/terms)
+[MailChimp](https://mailchimp.com/legal/privacy/)
+[Zapier](https://zapier.com/privacy/)
+
+Our full privacy policy is available here: [https://fatcatapps.com/legal/privacy-policy/](https://fatcatapps.com/legal/privacy-policy/)
+
+== Screenshots ==
+1. The start quiz / quiz landing - page
+2. Each quiz contains multiple-choice questions
+3. Answer page (correct answer)
+4. Answer page (incorrect answer)
+5. The quiz results / quiz scoring - page
+6. The Quiz Cat user interface
+
+
+== Changelog ==
+
+= Quiz Cat 2.1.1 =
+* Added discoverability to removing questions & answers buttons
+* Fixed missing explanations in the frontend (Premium)
+* Fixed some small cosmetic bugs
+* Tested up to WordPress 5.9.1
+
+= Quiz Cat 2.1.0 =
+* Added optional timer to all quiz types in Quiz Cat Premium
+* Fixed bug dragging questions with explanation in editor
+* Fixed "disable auto scrolling" toggle
+* Removed unused Quiz Cat Premium translations
+* Hardened plugin security
+* More small bugfixes
+* Tested with WordPress 5.8.3
+
+= Quiz Cat 2.0.7 =
+* Added "Translations" tab to customize all quiz text
+* Fixed some classnames so themes don't override quiz styles
+* Fixed scroll issue with very long questions on frontend
+* Tested with WordPress 5.8.1
+
+= Quiz Cat 2.0.6 =
+* Fixed save confirmation dialog in admin panel, now only shows when quiz data has changed
+* Tested with WordPress 5.8
+
+= Quiz Cat 2.0.5 =
+* Updated feedback form
+* Tested up to WordPress 5.6.2
+
+= Quiz Cat 2.0.4 =
+* Added checkmark to answers on mobile
+* Changed result output from P to DIV tags
+* Fixed black checkbox issue on mobile
+* Fixed error on quiz title Enter press in editor
+
+= Quiz Cat 2.0.3 =
+* Fixed Gutenberg CSS issues
+* Fixed missing answer hover color
+
+= Quiz Cat 2.0.2 =
+* Fixed saving issue in editor
+* Tested up to WordPress 5.6
+
+= Quiz Cat 2.0.1 =
+* Fixed missing result description after quiz
+
+= Quiz Cat 2.0.0 =
+* Added explanation for some editor settings
+* Cleaned up quiz editor code
+* Improved answer hover animation
+* Renamed 'Test' quiz to 'Multiple Choice'
+* Rebuilt quiz select menu
+* Remove unused option from bulk actions
+* Fixed checkbox position for image-only answers
+
+= Quiz Cat 1.9.0 =
+* Fixed text indent issue for short answers
+* Fixed missing image when sharing quiz through Twitter
+* Fixed PHP notice
+* Fixed issue with empty questions/answers
+* Tested up to WordPress 5.5
+
+= Quiz Cat 1.8.0 =
+* Added feature to copy quiz
+* Added Shortcode functionality in description fields
+* Added score and result to Facebook share title
+* Changed header usage to P tags
+* Fixed Gutenberg css issues
+* Tested up to WordPress 5.4.2
+
+= Quiz Cat 1.7.5 =
+* Added features to the paid versions
+
+= Quiz Cat 1.7.4 =
+* Fixed undefined index notice on save
+
+= Quiz Cat 1.7.3 =
+* Changed select2 library to load locally
+* Improved feedback on touchscreen devices
+* Tested up to WordPress 5.4.1
+
+= Quiz Cat 1.7.2 =
+* Add option to disable automatic scrolling
+* Add Tested up to WordPress 5.3.0
+* Minor code & compatibility improvements
+
+= Quiz Cat 1.7.1 =
+* Fix enter causing form to submit when adding tags
+
+= Quiz Cat 1.7.0 =
+* Add WordPress 5.0 Gutenberg support (add quiz blocks to your site)
+* Added scroll to top after 'next question' button press
+* Allow target and rel attributes in editor html
+
+= Quiz Cat 1.6.2 =
+* Allow HTML including video embeds in every field
+* Fix character encoding issue on questions with certain HTML characters
+
+= Quiz Cat 1.6.0 =
+* Tested up to WP 4.9.6
+* Removed installation splash screen
+
+= Quiz Cat 1.5.0 =
+* Add privacy policy / after button area
+* Change image uploader to allow picking resized images
+* Fix very long quizzes not saving properly on some configurations
+* Fix some mobile issues on old Android versions (4.4)
+
+= Quiz Cat 1.4.1 =
+* Fix HTML in description being overwritten/stripped
+* Fix warnings in PHP 7.1
+
+= Quiz Cat 1.4.0 =
+* Added new text editor
+* Added new delete confirmation icon (fixes delete question/answer dialog not showing on Safari)
+* Added various UI improvements
+* Fix ID conflict with MailMunch
+* Fix white square icon in answer for IE
+* Fix Email share on iOS (Hidden)
+* Fix mobile highlight color
+
+= Quiz Cat 1.3.1 =
+* Fix missing 'No Quiz found' text
+* Add upgrade menu link
+
+= Quiz Cat 1.2.3 =
+* Added shortcodes to change various quiz text (e.g. Start Quiz)
+* Added tabs to Quiz Editor UI (settings moved to own tab)
+
+= Quiz Cat 1.2.2 =
+* Fix 'Start Quiz' button not working on some themes
+
+= Quiz Cat 1.2.1 =
+* Fix Warning: Invalid argument supplied for foreach() warning
+
+= Quiz Cat 1.2.0 =
+* Added unlimited answers to questions
+* Replaced Freemius with Fatcat Apps' API
+
+= Quiz Cat 1.1.1 =
+* Allow HTML in quiz (description, questions, answers, results, etc).  Allowed HTML tags based on wp_kses_post
+* Fix potential for text filters to run before a theme's functions.php
+
+= Quiz Cat 1.1.0 =
+* Added UI tooltips and various UI improvements
+* Fix quiz preview not working on unsaved quizzes for some permalink settings
+* Fix confirmation dialog when saving quizzes after previewing
+
+= Quiz Cat 1.0.7 =
+* Optimized various margins and spacing for mobile
+* Added image preloader - more fluid image-based quizzes
+* Improved scrolling on quiz start
+* Various UI improvements
+* Tested up to WordPress 4.6 RC1
+
+= Quiz Cat 1.0.6 =
+* Visual improvement: multi-line answers now line up nicer
+* Bugfix: PHP notice on 404 pages
+* Bugfix: for some users, "correct" answers were marked as "incorrect"
+
+= Quiz Cat 1.0.5 =
+* Added quick links sidebar
+* Improve browser support ( Safari and IE 8-11 )
+* Fix possible issue with non-latin characters (Č, Ć, Ž, Š, etc.)
+
+= Quiz Cat 1.0.4 =
+* Preview changed to Save & Preview - the current quiz will be saved before preview
+* Make quiz scroll in to view when clicking start
+* Remove duplicate title on quiz previews
+* Change delete icons from red to gray
+* Add CSS to hide images with no source tag set (fix Firefox displaying broken image icons)
+* Add optional feedback tracking
+
+= Quiz Cat 1.0.3 =
+* New Quiz Cat Menu Icon
+* Added the ability to add images to quiz questions
+* Added "Need Quiz Ideas?" form
+
+= Quiz Cat 1.0.2 =
+* Change text domain to match WordPress.org plugin slug (quiz-cat)
+
+= Quiz Cat 1.0.1 =
+* Fix space in SVN repo
+
+= Quiz Cat 1.0.0 =
+* Initial release
+
+= Quiz Cat 1.0-RC2 =
+* Numerous bugfixes & UX improvements.
+
+= Quiz Cat 1.0-RC1 =
+* Release candidate 1.
