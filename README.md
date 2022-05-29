@@ -6,11 +6,12 @@ TruthTeller has been specifically developed for 30-34 years old Victorian citize
 ### 2. Project Functions
 In this project, a web application is implemented, which is used to help customers to identify fake reviews in ecommerce platform. 
 - The user can use a phone/computer to access the web to our system via internet.
-- On the web, there are four main functions:
+- On the web, there are several functions:
 	- provide information on fake reviews(types, impacts and identification)
 	- a quiz about distinguishing fake reviews
 	- create graphs to achieve data visualisation for different product categories or over time(monthly). 
 	- create a word cloud to show the frequency of words appearing in fake/real reviews. 
+	- checker function to help user identify the possibility of a review.
 - The data preprocessing is achieved by Python and the project uses MySQL databases for data storage.  
 
 
